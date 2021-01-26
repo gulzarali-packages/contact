@@ -10,10 +10,20 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.1",
+        "laravel/framework":"6.18.*"
+    },
     "autoload": {
         "psr-4": {
             "GulzarAli\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GulzarAli\\Contact\\ContactServiceProvider"
+            ]
         }
     }
 }

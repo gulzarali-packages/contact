@@ -3,4 +3,7 @@ This is simple and user freindly laravel package to include contact us functiona
 
 ## Installation
 composer require gulzarali/contact
+### Add service provider in config/app.php
+        GulzarAli\Contact\ContactServiceProvider::class,
+
 
