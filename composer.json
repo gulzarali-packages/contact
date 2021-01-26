@@ -1,0 +1,19 @@
+{
+    "name": "GulzarAli/Contact",
+    "description": "This will integrate contat us functionality to your projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gulzar Ali",
+            "email": "aligulzar375@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GulzarAli\\Contact\\": "src/"
+        }
+    }
+}
